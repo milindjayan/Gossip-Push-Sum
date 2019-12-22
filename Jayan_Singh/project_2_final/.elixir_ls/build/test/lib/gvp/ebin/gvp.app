@@ -1,0 +1,11 @@
+{application,gvp,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"gvp"},
+              {modules,['Elixir.Gossip.Actor','Elixir.Gossip.ActorSupervisor',
+                        'Elixir.Gossip.Start','Elixir.Gossip.Topo',
+                        'Elixir.Gossip.Topologies','Elixir.Gvp.Application',
+                        'Elixir.PushSum.Actor',
+                        'Elixir.PushSum.ActorSupervisor',
+                        'Elixir.PushSum.Start']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
